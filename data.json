@@ -1,0 +1,25 @@
+[
+    {
+        "testName": "global",
+        "data": {
+            "url": "https://bookstore.qacurry.com"
+        }
+    },
+    {
+        "testName": "tc001",
+        "data": {
+            "username": "student@qacurry.com",
+            "password": "Q@curry",
+            "expectedText": "Hello Student"
+        }
+    },
+    {
+        "testName": "tc002",
+        "data": {
+            "username": "not-student@qacurry.com",
+            "password": "not-Q@curry",
+            "expectedText": "Your Login Name or Password is invalid"
+        }
+    }
+
+]
